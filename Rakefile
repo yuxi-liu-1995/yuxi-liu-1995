@@ -34,4 +34,8 @@ task :deploy do
   puts status ? "Success" : "Failed"
 end
 
-task default: %w[deploy]
+desc "Commit and deploy _site/"
+task :commit_deploy => [:commit, :deploy] do
+end
+
+task default: %w[commit_deploy]
