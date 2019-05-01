@@ -15,7 +15,7 @@ gems:
 markdown: kramdown
 theme: minima
 
-# Load plugins
+# For bibtex
 gems: ['jekyll/scholar']
 
 scholar:
@@ -45,3 +45,7 @@ scholar:
   details_link:   Details
 
   query: "@*"
+
+# For laTeX
+kramdown:
+   math_engine: mathjax

@@ -1,7 +1,7 @@
 ---
 title: "Hyperbolic dynamical systems, chaos, and Smale’s horseshoe: a guided tour (2019)"
 excerpt: "Report written in 2019 for Ergodic Theory course at Australian National University. An illustrated tour of some history and topics of <a href="https://en.wikipedia.org/wiki/Ergodic_theory">ergodic theory</a>."
-collection: portfolio
+collection: papers
 ---
 
 **[Hyperbolic dynamical systems, chaos, and Smale’s horseshoe: a guided tour](http://yuxi-liu-1995.github.io/files/notes/ergodic_theory/ergodic_theory_project.pdf)**

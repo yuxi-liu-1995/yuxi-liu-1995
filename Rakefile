@@ -1,3 +1,10 @@
+desc "Compile and view site locally."
+task :view do
+  puts "\n## Run: bundle exec jekyll serve --incremental"
+  status = system("start http://localhost:4000/")
+  puts status ? "Success" : "Failed"
+end
+
 desc "Commit source"
 task :commit do
   puts "\n## Switiching to source branch."

@@ -1,7 +1,7 @@
 ---
 title: "Geometric derivation of Wigner rotation (2018)"
 excerpt: "Report written in 2018 for PHYS3001 course at Australian National University. Derives the <a href="https://en.wikipedia.org/wiki/Wigner_rotation">Wigner rotation</a> geometrically."
-collection: portfolio
+collection: papers
 ---
 
 **[Geometric derivation of Wigner rotation](http://yuxi-liu-1995.github.io/files/notes/wigner_rotation/wigner_rotation_complete.pdf)**
