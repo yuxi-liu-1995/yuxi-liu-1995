@@ -1,7 +1,7 @@
 desc "Commit source"
 task :commit do
   puts "\n## Switiching to source branch."
-  status = system("git checkout -b source")
+  status = system("git checkout source")
   puts status ? "Success" : "Failed"
   puts "\n## Staging modified files"
   status = system("git add -A")
