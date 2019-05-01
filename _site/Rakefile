@@ -5,11 +5,8 @@ task :view do
   puts status ? "Success" : "Failed"
 end
 
-desc "Commit source"
-task :commit do
-  puts "\n## Switiching to source branch."
-  status = system("git checkout source")
-  puts status ? "Success" : "Failed"
+desc "Compile _site"
+task :compile do
   puts "\n## Remove _site."
   status = system("rm -r _site")
   puts status ? "Success" : "Failed"
@@ -17,6 +14,13 @@ task :commit do
   status = system("bundle exec jekyll build")
   puts status ? "Success" : "Failed"
   puts "\n## Staging modified files"
+end
+
+desc "Commit source"
+task :commit do
+  puts "\n## Switiching to source branch."
+  status = system("git checkout source")
+  puts status ? "Success" : "Failed"
   status = system("git add -A")
   puts status ? "Success" : "Failed"
   puts "\n## Committing a source at #{Time.now.utc}"
@@ -48,7 +52,7 @@ task :deploy do
 end
 
 desc "Commit and deploy _site/"
-task :commit_deploy => [:commit, :deploy] do
+task :compile_commit_deploy => [:compile, :commit, :deploy] do
 end
 
-task default: %w[commit_deploy]
+task default: %w[compile_commit_deploy]
