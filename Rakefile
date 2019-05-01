@@ -7,7 +7,7 @@ task :commit do
   status = system("git add -A")
   puts status ? "Success" : "Failed"
   puts "\n## Committing a source at #{Time.now.utc}"
-  message = "Build source at #{Time.now.utc}"
+  message = "Built from source at #{Time.now.utc}"
   status = system("git commit -m \"#{message}\"")
   puts status ? "Success" : "Failed"
   puts "\n## Pushing commits to remote"
@@ -27,7 +27,7 @@ task :deploy do
   status = system("git filter-branch --subdirectory-filter _site/ -f")
   puts status ? "Success" : "Failed"
   puts "\n## Pushing all branches to origin"
-  status = system("git push -f --all origin")
+  status = system("git push -f origin")
   puts status ? "Success" : "Failed"
   puts "\n## Switching back to source branch"
   status = system("git checkout source")
