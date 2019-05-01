@@ -1,14 +1,13 @@
 # Site settings
-title: J. Alexander Branham
-email: branham@utexas.edu
+title: Yuxi Liu
+email: yuxi.liu.1995@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  I'm a PhD Candidate in the Department of Government at UT-Austin.
-  I study American politics, public opinion, and methods. 
+  I'm an honours student at Australian National University.
 # baseurl: "/" # the subpath of your site, e.g. /blog/
-url: "https://jabranham.com" # the base hostname & protocol for your site
-twitter_username: JAlexBranham
-github_username:  jabranham
-permalink: /blog/:year/:month/:title.html
+url: "http://yuxi-liu-1995.github.io" # the base hostname & protocol for your site
+twitter_username: 1995Yuxi
+github_username:  yuxi-liu-1995
+# permalink: /blog/:year/:month/:title.html
 gems:
   - jekyll-sitemap
 
