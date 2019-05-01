@@ -4,11 +4,13 @@ title: Corrections
 permalink: /corrections/
 ---
 
-Here are errata and comments I have for various books.
+Errata, corrections, and comments on some books that I have worked through.
 ====
 
-* [A course in point set topology](files\corrections\a course in point set topology_corrections.pdf)
+* [Corrections and remarks](\files\corrections\a course in point set topology_corrections.pdf) for {% cite johnconway2013topology %}. Over half of the errors in the errata were independently found by me.
 
-* [An introduction to ergodic theory](files\corrections\an introduction to ergodic theory_errata.pdf)
+* [Corrections and remarks](\files\corrections\an introduction to ergodic theory_errata.pdf) for the first 3 chapters of {% cite peterwalters2000ergodic %}.
 
-* [Fundamentals of convex analysis](files\corrections\fundamentals of convex analysis_errata.pdf)
+* [Corrections and remarks](\files\corrections\fundamentals of convex analysis_errata.pdf) for {% cite jeanclaude2004convex %}.
+
+{% bibliography --cited %}

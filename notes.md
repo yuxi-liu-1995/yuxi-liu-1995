@@ -4,5 +4,5 @@ title: Notes
 permalink: /notes/
 ---
 
-Papers that I have not publshed in any journal, but that I believe is of general interest and worth publishing online.
+Papers that I have not published in any journal, but that I believe is of general interest and worth publishing online.
 ====
