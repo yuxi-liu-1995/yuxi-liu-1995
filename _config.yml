@@ -7,6 +7,9 @@ description: > # this means to ignore newlines until "baseurl:"
 url: "http://yuxi-liu-1995.github.io" # the base hostname & protocol for your site
 # permalink: /blog/:year/:month/:title.html
 
+# Google Analytics
+google_analytics: UA-139427416-1
+
 show_last_update: true
 
 gems:
