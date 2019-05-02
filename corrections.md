@@ -4,8 +4,8 @@ title: Corrections
 permalink: /corrections/
 ---
 
-Errata, corrections, and comments on some books that I have worked through.
-====
+#### Errata, corrections, and comments on some books that I have worked through.
+----
 
 * [Corrections and remarks](\files\corrections\a course in point set topology_corrections.pdf) for {% cite johnconway2013topology %}. Over half of the errors in the errata were independently found by me.
 

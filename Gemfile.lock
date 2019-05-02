@@ -132,6 +132,9 @@ GEM
     jekyll-github-metadata (2.12.1)
       jekyll (~> 3.4)
       octokit (~> 4.0, != 4.4.0)
+    jekyll-katex (0.4.1)
+      execjs (~> 2.7)
+      jekyll (~> 3.8)
     jekyll-last-modified-at (1.1.0)
       jekyll (>= 3.7, < 5.0)
       posix-spawn (~> 0.3.9)
@@ -266,6 +269,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  jekyll-katex
   jekyll-last-modified-at
   jekyll-scholar
   minima

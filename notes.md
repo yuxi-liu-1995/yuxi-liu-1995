@@ -4,9 +4,7 @@ title: Notes
 permalink: /notes/
 ---
 
-Papers that I have not published in any journal, but that I believe is of general interest and worth publishing online.
-====
-
+#### Papers that I have not published in any journal, but that I believe is of general interest and worth publishing online.
 {% for post in site.papers %}
   {% include default.html %}
 {% endfor %}
@@ -14,7 +12,7 @@ Papers that I have not published in any journal, but that I believe is of genera
 ---
 ### [Geometric derivation of Wigner rotation](/files/notes/wigner_rotation/wigner_rotation_complete.pdf)
 
-Report written in 2018 for PHYS3001 course at Australian National University.
+Report written in 2018 for Theoretical Physics course at Australian National University.
 
 **Abstract**
 
@@ -38,3 +36,12 @@ This paper gives an illustrated overview of several areas in dynamical systems. 
 ### [Handout for honours seminar talk on AIXI](/files/notes/2019_honours_seminar_talk/presentation_handout.pdf)
 
 Handout for an undergraduate 25-minute talk in 2019 at Australian National University.
+
+---
+### [An Overview of Information Geometry](/files/notes/overview_information_geometry/overview_information_geometry.pdf)
+
+Report written in 2019 for Differential Geometry course at Australian National University.
+
+**Abstract**
+
+Coming soon...
