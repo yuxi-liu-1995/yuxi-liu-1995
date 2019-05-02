@@ -1,5 +1,10 @@
 desc "Compile and view site locally."
 task :view do
+  if Dir.exist?('_site')
+    puts "\n## Remove _site."
+    status = system("rm -r _site")
+    puts status ? "Success" : "Failed"
+  end
   puts "\n## Run: bundle exec jekyll serve --incremental"
   status = system("start http://localhost:4000/")
   puts status ? "Success" : "Failed"
@@ -7,9 +12,11 @@ end
 
 desc "Compile _site"
 task :compile do
-  puts "\n## Remove _site."
-  status = system("rm -r _site")
-  puts status ? "Success" : "Failed"
+  if Dir.exist?('_site')
+    puts "\n## Remove _site."
+    status = system("rm -r _site")
+    puts status ? "Success" : "Failed"
+  end
   puts "\n## Recompile _site."
   status = system("bundle exec jekyll build")
   puts status ? "Success" : "Failed"

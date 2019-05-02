@@ -8,8 +8,10 @@ url: "http://yuxi-liu-1995.github.io" # the base hostname & protocol for your si
 twitter_username: 1995Yuxi
 github_username:  yuxi-liu-1995
 # permalink: /blog/:year/:month/:title.html
+
 gems:
   - jekyll-sitemap
+  - jekyll-last-modified-at
 
 # Build settings
 markdown: kramdown
@@ -17,7 +19,6 @@ theme: minima
 
 # For bibtex
 gems: ['jekyll/scholar']
-
 scholar:
   style: chicago-author-date
   locale: en
