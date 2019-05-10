@@ -30,8 +30,8 @@ task :commit do
   puts status ? "Success" : "Failed"
   status = system("git add -A")
   puts status ? "Success" : "Failed"
-  puts "\n## Committing a source at #{Time.now.utc}"
-  message = "Built from source at #{Time.now.utc}"
+  puts "Please input the commit message."
+  message = $stdin.gets.chomp
   status = system("git commit -m \"#{message}\"")
   puts status ? "Success" : "Failed"
   puts "\n## Pushing commits to remote"
@@ -62,4 +62,13 @@ desc "Commit and deploy _site/"
 task :compile_commit_deploy => [:compile, :commit, :deploy] do
 end
 
-task default: %w[compile_commit_deploy]
+
+task :default => ["help_message"]
+
+task :help_message do
+  puts "\nTo view the website, type 'rake view'."
+  puts "\nTo add current branch, type 'git add -A'."
+  puts "\nTo commit current branch, type 'git push -m \"message\"'."
+  puts "\nTo push current branch, type 'git push'."
+  puts "\nTo compile and commit to source branch, and deploy the whole site to master branch, first type 'rake compile_commit_deploy', then type in the commit message blindly."
+  end
