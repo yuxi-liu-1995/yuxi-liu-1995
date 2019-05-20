@@ -23,6 +23,9 @@ This paper gives an illustrated derivation of Wigner rotation using the geometry
 
 <center><img src="/files/notes/wigner_rotation/2_3_lorentz_trans_combined.svg" width="400"></center>
 
+Also it has a companion paper.
+[Hyperbolic geometry of velocity space in relativity](/files/notes/wigner_rotation/hyperbolic_geometry_relativity.pdf)
+
 ---
 ### [Hyperbolic dynamical systems, chaos, and Smale’s horseshoe: a guided tour](/files/notes/ergodic_theory/ergodic_theory_project.pdf)
 
@@ -35,7 +38,7 @@ This paper gives an illustrated overview of several areas in dynamical systems. 
 ---
 ### [Handout for honours seminar talk on AIXI](/files/notes/2019_honours_seminar_talk/presentation_handout.pdf)
 
-Handout for an undergraduate 25-minute talk in 2019 at Australian National University.
+Handout for an [undergraduate 25-minute talk](https://web.archive.org/web/20190520002005/https://maths.anu.edu.au/news-events/events/honours-seminar-9) in 2019 at Australian National University.
 
 ---
 ### [An Overview of Information Geometry](/files/notes/overview_information_geometry/overview_information_geometry.pdf)
