@@ -15,7 +15,6 @@ task :compile do
   puts "\n## Coompile _site."
   status = system("bundle exec jekyll build")
   puts status ? "Success" : "Failed"
-  puts "\n## Staging modified files"
 end
 
 desc "Recompile _site"
