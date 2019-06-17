@@ -52,10 +52,6 @@ task :deploy do
   puts status ? "Success" : "Failed"
 end
 
-desc "Commit souce."
-task :compile_commit => [:compile, :commit] do
-end
-
 task :default => ["help_message"]
 
 task :help_message do

@@ -41,10 +41,12 @@ This paper gives an illustrated overview of several areas in dynamical systems. 
 Handout for an [undergraduate 25-minute talk](https://web.archive.org/web/20190520002005/https://maths.anu.edu.au/news-events/events/honours-seminar-9) in 2019 at Australian National University.
 
 ---
-### [An Overview of Information Geometry](/files/notes/overview_information_geometry/overview_information_geometry.pdf)
+### [An Overview of Information Geometry](/files/notes/2019_differential_geometry/2019_differential_geometry_information_geometry_report.pdf)
 
 Report written in 2019 for Differential Geometry course at Australian National University.
 
 **Abstract**
 
-Coming soon...
+This paper summarizes the basics concepts of information geometry, and gives as example applications, Jeffreys prior in Bayesian probability, and natural gradient descent in machine learning. Necessary concepts in probability and statistics are explained in detail.
+
+The main purpose of the paper is to provide, for people familiar with differential geometry, an accessible overview and entry point into information geometry. No originality is claimed in content.
